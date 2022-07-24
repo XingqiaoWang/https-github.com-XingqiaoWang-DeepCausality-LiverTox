@@ -1,3 +1,18 @@
+Disclaimer:
+All the data in this repository is no longer updated since 2019.Jan.24th and it may not reflect current data available.
+
+### BioASQ
+Before using the files in this repository, you must first register BioASQ website and download the [BioASQ Task B](http://participants-area.bioasq.org/Tasks/A/getData/) data.
+See "An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition (Tsatsaronis et al. 2015)" for datasets details.
+
+### PubMed
+Downloading data indicates your acceptance of the <a href="https://www.nlm.nih.gov/databases/download/terms_and_conditions.html">Terms and Conditions</a> from National Library of Medicine Terms and Conditions.
+
+
+
+
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/

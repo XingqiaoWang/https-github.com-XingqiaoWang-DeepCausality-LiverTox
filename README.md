@@ -30,9 +30,9 @@ The default settings for the code match the settings used in the software.
 3. You'll run from `src` code as 
 `./Analgesics-induced_acute_liver_failure/data_processing.sh`
 Before doing this, you'll need to put the datset.csv file to `dat/Analgesics-induced_acute_liver_failure/dataset/` directory.
-2. Then you'll run `./Analgesics-induced_acute_liver_failure/run_ALBERT.sh`
-Before doing this, you'll need to change `ALBERT_BASE_DIR=../ALBERT/model` to `ALBERT_BASE_DIR=[PATH to ALBERT MODEL]`
-3. Finally, you'll run `./Analgesics-induced_acute_liver_failure/run_casual_inference.sh`, and you can find the causal results csv files in the `dat/Analgesics-induced_acute_liver_failure\causal_result`
+2. Then you'll run `./src/run_classifier.sh`
+Before doing this, you'll need to change BioBERT model path
+3. Finally, you'll run `./scr/Causal inference livertox.ipynb`, and you can find the causal results csv files in the `src/results/causal_result`
 
 
 

@@ -1,4 +1,4 @@
-python3.6 ./biobert-master/run_classifier.py \
+python3.6 ./biobert-modal/run_classifier.py \
 --task_name=causal \
 --do_train=true \
 --do_eval=true \

@@ -8,7 +8,7 @@ The paper describes a general causal inference framework named DeepCausality to 
 
 # Requirements and setup
 
-The proposed DeepCausality framework was exemplified based on BioBERT (BioBERT, https://github.com/dmis-lab/biobert)
+The proposed DeepCausality framework was exemplified based on BioBERT, we use model biobert_v1.1_pubmed (BioBERT, https://github.com/dmis-lab/biobert)
 Python 3.6 
 TensorFlow version 1.15
 
@@ -26,8 +26,8 @@ For convience, you can get the BERN results from https://drive.google.com/drive/
 # Reproducing the LiverTox experiments
 
 The default settings for the code match the settings used in the software.
-
-1. You'll run from `src` code as 
+1. You'll put the downloaded model to the `src/model/` directory.
+3. You'll run from `src` code as 
 `./Analgesics-induced_acute_liver_failure/data_processing.sh`
 Before doing this, you'll need to put the datset.csv file to `dat/Analgesics-induced_acute_liver_failure/dataset/` directory.
 2. Then you'll run `./Analgesics-induced_acute_liver_failure/run_ALBERT.sh`

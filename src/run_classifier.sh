@@ -3,9 +3,9 @@ python3.6 ./biobert-master/run_classifier.py
 --do_train=true
 --do_eval=true
 --do_predict=true
---vocab_file=/home/xwang1/code4/biobert_v1.1_pubmed/vocab.txt
---bert_config_file=../biobert_model/biobert_v1.1_pubmed/bert_config.json
---init_checkpoint=../biobert_model/biobert_v1.1_pubmed/model.ckpt-1000000
+--vocab_file=./model/biobert_v1.1_pubmed/vocab.txt
+--bert_config_file=./model/biobert_v1.1_pubmed/bert_config.json
+--init_checkpoint=./model/biobert_v1.1_pubmed/model.ckpt-1000000
 --num_train_epochs=6.0
---data_dir=../../dat
---output_dir=../biobert-master/output
+--data_dir=../dat/dataset
+--output_dir=./results

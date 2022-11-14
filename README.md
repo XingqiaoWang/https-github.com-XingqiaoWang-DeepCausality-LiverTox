@@ -26,10 +26,10 @@ For convience, you can get the BERN results from https://drive.google.com/drive/
 # Reproducing the LiverTox experiments
 
 The default settings for the code match the settings used in the software.
-1. You'll run from `src` code as `./run_generate_feature.sh`
-Before doing this, you'll need to put the datset folder `dat/proc/` directory.
-2. Then you'll run `src/run_classifier.sh`
-Before doing this, you'll put the download biobert model and change BioBERT model path and put the datset folder `dat/proc/` directory.
+1. You'll process the name entity results from BERN by run code as `./src/run_generate_feature.sh`
+Before doing this, you'll need to put the name entity results to `dat/proc` directory.
+2. Then you'll run `./src/run_classifier.sh`
+Before doing this, you'll put the download biobert model and change BioBERT model path and put the dataset folder `dat/dataset` directory.
 3. Finally, you'll run `./src/Causal inference livertox.ipynb`, and you can find the causal results csv files in the `src/results/causal_result`
 
 
